@@ -4,9 +4,10 @@
 # include "libft/libft.h"
 # include <unistd.h>
 # include <fcntl.h>
+# include <stdio.h>
 
 # define BUFF_SIZE 545 
-# define FILLIT_MACRO int x; int y; int i; int count; t_etris *coord;
+# define FILLIT_MACRO int x; int y; int i; int count; t_etris *coord; t_list *list; char letter;
 
 
 typedef struct      te_list
@@ -19,7 +20,8 @@ typedef struct      te_list
 
 int                 is_block(char *buff);
 int                 valid(char *buff);
-t_list             *checker(char *file);
+t_list              *checker(char *file);
 t_list              *make_list(char *buff);
+t_etris             *find_coord(t_etris *coord, char *buff);
 
 #endif

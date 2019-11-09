@@ -4,6 +4,7 @@
 int main(int ac, char **av)   
 {
     t_list *tetrilist;
+    char **grid;
 
     if (ac != 2)
     {
@@ -20,7 +21,7 @@ int main(int ac, char **av)
             printf("%d", tetrilist->content);
             tetrilist = tetrilist->next;
         }
-    //make_map()
-    //solver(tetrilist);
+    solver(tetrilist);
+    print_tetris(tetrilist);
     return (0);
 }

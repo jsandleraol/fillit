@@ -90,5 +90,6 @@ char				*ft_strrev(char *str);
 char				*ft_strdcat(char *dest, char *src);
 char				*ft_strchr2(const char *s, int c);
 char				*ft_strdtrim(char const *s, int c);
+void				ft_lstrev(t_list **alst);
 
 #endif

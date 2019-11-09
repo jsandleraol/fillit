@@ -79,7 +79,8 @@ SRCS =	ft_memset.c\
 		ft_strdcat.c\
 		ft_strchr2.c\
 		ft_strdtrim.c\
-
+		ft_lstrev.c\
+		
 OBJ = $(SRCS:.c=.o)
 
 all: $(NAME)
