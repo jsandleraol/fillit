@@ -31,7 +31,7 @@ Example:
 
 Result:
 
-  ABBB
-  A.BC
-  ACCC
-  A...
+	ABBB
+	A.BC
+	ACCC
+	A...
