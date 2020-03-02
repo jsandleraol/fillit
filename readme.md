@@ -13,14 +13,25 @@ an issue if you run into any.
 `./fillit [file]`
 
 Example:
-```
-~ ./fillit samples/test_8
 
-.AABB..
-AACCB..
-.CC.BDD
-.EE.DD.
-EEFFGG.
-.FFGGHH
-....HH.
-```
+	.###
+	..#.
+	....
+	....
+
+	....
+	..#.
+	###.
+	....
+	
+	..#.
+	..#.
+	..#.
+	..#.
+
+Result:
+
+  ABBB
+  A.BC
+  ACCC
+  A...
